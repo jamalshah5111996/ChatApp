@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+
+    <!--Firebase Authentication-->
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+
+    <!-- include firebase database-->
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-database.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+// Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyB3AqG55OerfbanKtyKzMAmNh96hBwqZZ8",
+      authDomain: "chatapp-shah.firebaseapp.com",
+      databaseURL: "https://chatapp-shah.firebaseio.com",
+      projectId: "chatapp-shah",
+      storageBucket: "chatapp-shah.appspot.com",
+      messagingSenderId: "2892693072",
+      appId: "1:2892693072:web:edb9afef6446e436925b55",
+      measurementId: "G-EF1WJ4LMBQ"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+<script src="app.js"></script>
+</head>
+
+<body>
+<div class="body">
+    <h1>WELCOME! To The CHAT APP</h1>
+<div class="main" id="chat-scroll">
+    <form onsubmit="return sendMessage();">
+
+<ul id="messages" class="ul">
+</ul>
+</div>
+<input id="messaage" placeholder="Enter Message" autocomplete="off" class="input">
+
+<button type="submit" class="send">SEND</button>
+</form>
+</div>
+
+</body>
+</html>

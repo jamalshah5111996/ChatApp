@@ -1,0 +1,175 @@
+.body{background-image: linear-gradient(#feada6, #f5efef);
+    margin:0;
+    padding: 0;
+height: 100vh;
+width: 100vw;}
+h1{color:#52585b;
+    font-size: 25px;
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;}
+  h2{color:#52585b;
+    font-size: 25px;
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;}
+  h3{color:#52585b;
+    font-size: 30px;
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #ffa49a, 0 0 8px #ffa49a, 0 0 8px #ffa49a, 0 0 8px #ffa49a, 0 0 15px #ffa49a;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 8px  #ffc0cd, 0 0 8px  #ffc0cd, 0 0 8px  #ffc0cd, 0 0 8px  #ffc0cd, 0 0 15px  #ffc0cd, 0 0 15px  #ffc0cd;
+    }
+  }
+#message-{all: none;}
+.main{background-color: #ffc0cd;
+    box-shadow:
+        0 0 10px 2px #f7a29a,
+        0 0 10px 2px #bb8b86,
+        0 0 10px 3px #b98580;
+     margin: auto;
+    overflow-y: auto;
+    padding-top: 20px;
+    color: black;
+    border: solid 2px #ec847aaf;
+    border-radius: 10px;
+width: 70vw;
+text-align: center;
+height: 60vh;}
+.ul{list-style-type: none;
+font-size: 14px;
+font-style: italic;
+font-weight: bold;
+color: #52585b;}
+.input{margin-left: 30vw;
+    color: black;
+margin-top: 20px;
+font-style: italic;
+box-shadow:
+0 0 10px 2px #f7a29a,
+0 0 10px 2px #bb8b86,
+0 0 10px 3px #b98580;
+border: solid 3px #ec847aaf;
+border-radius: 6px;
+height: 5vh;
+width: 35vw;
+background-color: #f5efef;}
+:hover.input{box-shadow:
+  0 0 10px 2px #f7a29a,
+  0 0 10px 2px #bb8b86,
+  0 0 10px 3px #b98580;
+  border: solid 3px #ec847aaf;
+  border-radius: 6px;}
+:hover.send{background-color: #30ba8f;
+color: white;
+box-shadow:
+0 0 10px 2px #f7a29a,
+0 0 10px 2px #bb8b86,
+0 0 10px 3px #b98580;
+border: solid 3px #ec847aaf;
+border-radius: 6px;}
+.send{background-color: #0ba6ff;
+width: 8vw;
+font-style: italic;
+font-weight: bold;
+height: 5vh;
+color: white;
+box-shadow:
+0 0 10px 2px #f7a29a,
+0 0 10px 2px #bb8b86,
+0 0 10px 3px #b98580;
+border: solid 3px #ec847aaf;
+border-radius: 6px;}
+.loginmain{background-image: linear-gradient(#feada6, #f5efef);
+  margin:auto;
+  padding: 0;
+height: 100vh;
+width: 100vw;}
+.loginbtn{margin: auto;
+  margin-top: 60px;
+padding-top: 0;
+text-align: center;}
+.btn{background-color: #0ba6ff !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  box-shadow:
+  0 0 10px 2px #f7a29a,
+  0 0 10px 2px #bb8b86,
+  0 0 10px 3px #b98580 !important;
+  border: solid 2px #ec847aaf !important;
+  border-radius: 6px !important;}
+:hover.btn{background-color: #30ba8f !important;
+  color: white !important;
+  box-shadow:
+  0 0 10px 2px #f7a29a,
+  0 0 10px 2px #bb8b86,
+  0 0 10px 3px #b98580 !important;
+  border: solid 3px #ec847aaf !important;
+  border-radius: 6px !important;}
+
+  @media only screen and (max-width: 880px) {
+    .send{width:font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .send{font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 620px) {
+    .send{font-size: 11px;
+      width: 10vw;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .send{font-size: 9px;
+      width: 10vw;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .send{font-size: 10px;
+      width: 10vw;
+    }
+  }
+  @media only screen and (max-width: 410px) {
+    .send{font-size: 10px;
+      width: 12vw;
+    }
+  }
+  @media only screen and (max-width: 340px) {
+    .send{font-size: 10px;
+      width: 14vw;
+    }
+  }
+  @media only screen and (max-width: 335px) {
+    .input{width: 38vw;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .send{font-size: 10px;
+      width: 16vw;
+    }
+  }
+  @media only screen and (max-height: 465px) {
+    .send{height: 7vh;
+    }
+    .input{height: 7vh;}
+  }
+   @media only screen and (max-height: 320px) {
+    .send{height: 9vh;
+    }
+    .input{height: 9vh;}
+  }
+  @media only screen and (max-height: 220px) {
+    .send{height: 11vh;
+    }
+    .input{height: 11vh;}
+  }
